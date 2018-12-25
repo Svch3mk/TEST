@@ -1,0 +1,219 @@
+/* 
+    Document   : adminStyle.css
+    Created on : 30/06/2013, 12:36:02 م
+    Author     : Ashraf Hefny
+    Description:
+        This is the style for Admincp.
+*/
+/*index page */
+div.slider{
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/dashboard.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/** Navigation **/
+#admin_navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#admin_navigation ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#admin_navigation li {
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+#admin_navigation li a {
+	color: #818181;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#admin_navigation li a:hover {
+	color: #000;
+}
+#admin_navigation li.active a {
+	color: #f99600;
+}
+
+#second_navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 40px;
+	
+	padding-top: 3px;
+        border-top: 1px solid #f99600;
+        background-color: #818181;
+        float: right;
+}
+
+#second_navigation li {
+	float: left;
+	width: 130px;
+	text-align: center;
+}
+#second_navigation li a {
+	color: #d5d5d5;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#second_navigation li a:hover {
+	color: #000;
+}
+#second_navigation li.active a {
+	color: #f99600;
+}
+
+/* FORM */
+
+input[type='text'],input[type='password'],textarea {
+	color: #aeaeae;
+	font-size: 13px;
+	height: 33px;
+	line-height: 33px;
+	width: 380px;
+	border: 1px solid #d5d5d5;
+	margin: 0 0 6px;
+	padding: 0 4px;
+}
+textarea {
+	height: 175px;
+	overflow: auto;
+	resize: none;
+}
+input[type='submit'] {
+	float: left;
+	background-color: #818181;
+	color: #d5d5d5;
+	cursor: pointer;
+	font: 13px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	border: 0;
+	margin: 0;
+	padding: 0 10px;
+}
+.contact {
+	background-color: #f8f8f8;
+	width: 270px;
+	padding: 124px 60px;
+	text-align: center;
+}
+.contact p span {
+	color: #2c2c2c;
+	display: block;
+	font-size: 30px;
+	line-height: 36px;
+	padding: 18px 0;
+}
+
+
+.success{
+        border: 1px solid;
+        margin: 10px 0px;
+        padding:15px 10px 15px 50px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        color: #4F8A10;
+        background-color: #DFF2BF;
+        font-size: 25px;
+}
+.error{
+        border: 1px solid;
+        margin: 10px 0px;
+        padding:15px 10px 15px 50px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        color: #4F8A10;
+        color: #D8000C;
+        background-color: #FFBABA;
+}
+
+
+/**  Images*/
+.urlImage{
+        width: 150px;
+        height: 80px;
+        margin: 10px;
+}
+input[type="text"].width{
+    width: 60px;
+}
+
+/* POst page Block */
+.post_page_block{
+        float: left;
+	width: 350px;
+	margin-top: 30px;
+        margin-left: 30px;
+        background-color: #f8f8f8;
+	padding: 15px;
+	text-align: center;
+        border-bottom: 1px #000 dashed;
+        border-left: 1px #000 dashed;
+}
+.post_page_block h2{
+        color: #3e3e3e;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0 0 30px;
+        float: left;
+        text-decoration: underline;
+}
+.post_page_block p{
+    clear: both;
+    text-align: left;
+    cursor: pointer;
+}
+.post_page_block p:hover{
+    background-color: #aeaeae;
+}
+.post_page_block p span{
+    color: #f99600;
+}
+table.post_table{
+    margin-top: 50px;
+}
+table.post_table th{
+    background-color: #818181;
+    color: #d8d8d8;
+    font-size: 1.2em;
+}
+table.post_table tr{
+    background-color: #d5d5d5;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+}
+table.post_table tr:hover{
+    background-color: #818181;
+    color: #d5d5d5;
+}
+table.post_table td a{
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+}
+h2{
+    margin-top: 30px;
+}
+.login{
+    width: 50%;
+    algin:center;
+    margin-left: 25%;
+    margin-top: 25%;
+    background-color: #d8d8d8
+}
+.login h2{
+    text-align: center;
+}
